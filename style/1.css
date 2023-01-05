@@ -1,0 +1,68 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+}
+/* headder nav */
+.one{
+font-weight: 700;
+font-size:45px;
+}
+.two{
+    color: darkorange;
+}
+.three{
+    color: blue;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 35px 150px   ;
+}
+.text-primary{
+    color: orangered;
+}
+nav li {
+    list-style: none;
+    margin:20px;
+}
+nav ul {
+    display: flex;
+    justify-content:left ;
+}
+/* hedder banner */
+.hadder{
+   display: flex;
+    margin: 0 200px;
+}
+.banner{
+    font-weight: 600;
+    font-size:40px;
+    }
+ .bannertwo{
+        font-weight: 700;
+        font-size:70px;
+    }
+    .bannerthree{
+        color:#757575;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .bannerfour{
+        background-color: orangered;
+        border: none;
+        border-radius:5px;
+        color: 
+       width:80px;
+        height:30px;
+       
+    }
+    .hadderone{
+        background-color: rgb(250, 212, 199);
+        background-image:url("../images/header_bg.png"),url('../images/developer.png');
+        background-repeat: no-repeat;
+        background-position:bottom  right ,left  ;
+        
+    }
+    
